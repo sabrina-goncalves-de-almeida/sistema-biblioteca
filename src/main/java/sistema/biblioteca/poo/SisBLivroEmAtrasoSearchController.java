@@ -16,7 +16,7 @@ public class SisBLivroEmAtrasoSearchController implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e){
 
-        int codigoDoLivro = Integer.parseInt(JOptionPane.showInputDialog(janelaPrincipal, "Qual o dia a pesquisar? [1-31]"));
+        int codigoDoLivro = Integer.parseInt(JOptionPane.showInputDialog(janelaPrincipal, "Qual o código do livro a pesquisar?"));
 
         String livrosEmAtraso = "";
         try {
